@@ -1,0 +1,263 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+.header{
+	width: 100%;
+	box-shadow: 0px 2px 10px 0px #ccc;
+}
+.header-row{
+	width: 1320px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul{
+	display: flex;
+	gap: 30px;
+}
+.menu ul li a{
+	color: black;
+	font-size: 20px;
+}
+.background{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/town.jpg") center fixed;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.background h1{
+	color: white;
+	font-size: 50px;
+}
+.background i{
+	color: white;
+	font-size: 40px;
+	cursor: pointer;
+}
+.background i:hover{
+	color: lightblue;
+}
+.Introduction{
+	width: 100%;
+	padding: 80px 0px;
+}
+.Introduction-inner{
+	width: 1320px;
+	margin: auto;
+	display: flex;
+}
+.Introduction-image{
+	flex-basis: 47%;
+}
+.Introduction-image img{
+	width: 100%;
+}
+.Introduction-content{
+	flex-basis: 47%;
+	padding-left: 120px;
+	padding-top: 20px;
+}
+.Introduction-content h2{
+	font-size: 50px;
+	color: #3496D8;
+	font-weight: normal;
+}
+.Introduction-content p{
+	font-size: 20px;
+	line-height: 35px;
+	margin: 30px 0px;
+	color: #8F8F8F;
+}
+.Introduction-content button{
+	padding: 15px 30px;
+	background-color: #3496D8;
+	border: none;
+	border-radius: 20px;
+	color: white;
+}
+.column{
+	width: 100%;
+	padding: 50px 0px;
+	display: flex;
+}
+.column-row{
+	width: 30%;
+	text-align: center;
+	padding-left: 40px;
+}
+.column-row i{
+	color: #3798D9;
+	font-size: 50px;
+	padding: 15px 0px;
+}
+.column-row h3{
+	color: #3798D9;
+	font-size: 30px;
+	padding: 15px 0px;
+}
+.column-row p{
+	color: #8F8F8F;
+	font-size: 20px;
+	line-height: 30px;
+}
+.our-work{
+	width: 100%;
+	text-align: center;
+}
+.our-work h2{
+	color: #3697D8;
+	font-size: 40px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+.our-work-content{
+	width: 75%;
+}
+.our-work-content p{
+	font-size: 18px;
+	color: #8F8FAC;
+	line-height: 40px;
+	margin-left: 375px;
+}
+.our-work-images{
+	width: 100%;
+	padding: 40px 0px;
+	display: flex;
+	justify-content: center;
+}
+.our-work-images-row img{
+	width: 220px;
+	height: 330px;
+	padding-left: 40px;
+	padding-bottom: 50px;
+}
+.bottom-background{
+	width: 100%;
+	height: 100vh;
+	padding: 50px 0px;
+	background: url(../images/town2.jpg) center fixed;
+	background-size: cover;
+}
+.bottom-background h2{
+	color: white;
+	font-size: 60px;
+	padding-left: 225px;
+	padding-top: 20px;
+}
+.borderline{
+	border: 1px solid white;
+	height: 1px;
+	width: 73%;
+	background-color: white;
+	margin-left: 230px;
+	margin-top: 15px;
+}
+.borderline p{
+	color: white;
+	font-size: 20px;
+	padding-top: 60px;
+	line-height: 40px;
+}
+.borderline-2{
+	border: 2px solid white;
+	width: 27%;
+	background-color: white;
+	height: 4px;
+}
+.input-bottom{
+	width: 100%;
+	display: flex;
+}
+.input-bottom-item{
+	width: 50%;
+	display: flex;
+}
+.call i{
+	color: white;
+	font-size: 40px;
+	padding-top: 50px;
+}
+.call p{
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+	padding-left: 40px;
+	padding-top: 50px;
+}
+.message{
+	color: white;
+	padding-top: 60px;
+	font-size: 18px;
+}
+.message i{
+	font-size: 40px;
+	padding-right: 20px;
+}
+.message p{
+	padding-top: 0px;
+}
+.location{
+	color: white;
+	font-size: 18px;
+	padding-top: 60px;
+}
+.location i{
+	font-size: 40px;
+	padding-right: 30px;
+}
+.location p{
+	padding-top: 0px;
+}
+.email{
+	padding-top: 70px;
+	margin-right: 20px;
+}
+.email input{
+	padding: 10px 15px;
+	margin-right: 10px;
+	background: inherit;
+	width: 235px;
+	border: 1px solid white;
+	border-radius: 5px;
+	outline: none;
+}
+.email input::placeholder{
+	color: white;
+}
+.input-tag{
+	color: white;
+}
+.email button{
+	padding: 10px 30px;
+	background-color: #CED4DA;
+	border: none;
+	border-radius: 5px;
+}
+.bottom-line{
+	width: 73%;
+}
+.bottom-line p{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 660px;
+	padding-left: 360px;
+	color: #C9C1BD;
+}
+.icon-notification{
+	position: fixed;	
+}
+.icon-notification img{
+}
+
+
